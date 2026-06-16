@@ -1,4 +1,4 @@
-// union of intersection
+// intersection of arrays
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
