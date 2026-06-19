@@ -12,11 +12,11 @@ int main(){
         }
     }
     int a,b;
-    cin>>a,b;
+    cin>>a>>b;
     cout<<"Elements of matrix 2:"<<endl;
-    vector<vector<int>> mat2(n,vector<int>(m));
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
+    vector<vector<int>> mat2(a,vector<int>(b));
+    for(int i=0;i<a;i++){
+        for(int j=0;j<b;j++){
             cin>>mat2[i][j];
         }
     }
